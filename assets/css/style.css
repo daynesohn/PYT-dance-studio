@@ -31,6 +31,7 @@ nav img {
   background-size: cover;
   text-align: center;
   color: #fff;
+  margin: 0 auto;
 }
 
 .jumbotron .container-fluid {
@@ -61,4 +62,94 @@ nav img {
   font-size: 1.375rem;
   font-weight: bold;
   padding: 1.25rem 3.125rem;
+}
+
+/*HERO STYLES*/
+.hero {
+  height: 31.25rem;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+
+.hero .container-fluid{
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 0;
+}
+
+.graffiti {
+  background-image: url(../images/graffiti-photo.png);
+}
+
+.fire {
+  background-image: url(../images/fire-photo.png);
+}
+
+.jump {
+  background-image: url(../images/jump-photo.png);
+}
+
+.example {
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 5rem;
+  padding-left: 3rem;
+}
+
+.example h1 {
+  font-size: 2.25rem;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.example p {
+  font-size: 1.125rem;
+  line-height: 1.4;
+  padding: 1.25rem 0;
+}
+
+.dark-purple {
+  background-color: rgba(120, 73, 225, 0.9);
+}
+
+.light-purple {
+  background-color: rgba(173, 74, 226, 0.9);
+}
+
+/*FOOTER STYLES*/
+footer {
+  height: 18.125rem;
+  width: 100%;
+  margin: 0 auto;
+  background-image: url(../images/party-photo.png);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.top-banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2.5rem 1rem 0 1rem;
+  height: auto;
+}
+
+.icons i {
+  padding: 0 2rem;
+}
+
+.bottom-banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  margin-top: 2rem;
 }
