@@ -8,18 +8,6 @@ nav {
   height: 3.875rem;
 }
 
-.navbar-brand {
-  margin-left: 3.6875rem;
-  margin-top: 0.25rem;
-  background-image: url(../images/logo-color.png);
-  background-repeat: no-repeat;
-  background-size: auto;
-  background-position: center;
-  padding: 0;
-  width: 14%;
-  height: 50px;
-}
-
 .navbar-left {
   background-image: url(../images/logo-color.png);
   background-size: 100% 100%;
@@ -31,11 +19,6 @@ nav {
 
 .navbar-right {
   padding-right: 3.4375rem;
-}
-
-nav img {
-  max-height: 50px;
-  width: auto;
 }
 
 .navbar-inverse .navbar-nav li a {
@@ -173,4 +156,137 @@ footer {
   background-color: rgba(0, 0, 0, 0.5);
   height: 100%;
   margin-top: 2rem;
+}
+
+/*MOBILE STYLES*/
+/*TABLET*/
+@media only screen and (max-width: 768px) {
+  /*STOP NAV FROM STACKING*/
+  .navbar-nav li,
+  .navbar-nav {
+    float: left !important;
+  }
+
+  .navbar-nav.navbar-right:last-child {
+    margin-right: -15px !important;
+  }
+
+  .navbar-right {
+    float: right !important;
+    margin: -3rem !important;
+  }
+
+  /*JUMBOTRON*/
+  .jumbotron .container-fluid {
+    width: 31.25rem;
+  }
+
+  /*HERO STYLES*/
+  .example {
+    height: 12.1875rem;
+    padding: 1.875rem 3.4375rem auto 1.875rem;
+  }
+
+  .example h1 {
+    font-size: 1.875rem;
+    line-height: 1.4;
+  }
+
+  .example p {
+    font-size: 1rem;
+    line-height: 1.5;
+    padding-top: 0.625rem;
+  }
+
+  /*FOOTER STYLES*/
+  .desktop {
+    display: none;
+  }
+
+  .top-banner {
+    justify-content: center;
+    font-size: 75%;
+    padding: auto;
+    height: 2.5rem;
+  }
+
+  .icons {
+    max-width: 5.4375rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  .bottom-banner {
+    font-size: 0.625rem;
+    letter-spacing: 0.5px;
+  }
+
+  footer {
+    text-align: center;
+  }
+}
+
+/*PHONE*/
+@media only screen and (max-width: 480px) {
+  /*NAV STYLES*/
+  nav {
+    height: 2.5rem;
+  }
+
+  .nav {
+    padding: 0 0.625rem;
+  }
+
+  .navbar-left {
+    background-image: url(../images/logo-mobile.png);
+    background-size: 100% 100%;
+    background-position: center;
+    width: 37px;
+    height: 30px;
+    margin-left: 0;
+  }
+
+  .navbar-inverse .navbar-nav li a {
+    font-size: 0.75rem;
+    color: #fff;
+    margin: 0.75rem auto;
+  }
+
+  /*JUMBOTRON*/
+  .jumbotron {
+    margin: 2.5rem auto auto auto;
+  }
+
+  .jumbotron .container-fluid {
+    width: 18.5rem;
+  }
+
+  .jumbotron h1 {
+    font-size: 1.875rem;
+    margin-top: 7.125rem;
+  }
+
+  .jumbotron p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-top: 1.625rem;
+  }
+
+  .jumbotron a {
+    margin-top: 3.875rem;
+  }
+
+  /*HERO*/
+  .example {
+    padding: 1.25rem;
+  }
+
+  .example h1 {
+    font-size: 1.25rem;
+    line-height: 1.2;
+  }
+
+  .example p {
+    font-size: 1rem;
+  }
 }
