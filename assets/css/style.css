@@ -5,12 +5,32 @@ html {
 
 /*NAV STYLES*/
 nav {
-  height: auto;
+  height: 3.875rem;
 }
 
 .navbar-brand {
-  padding: 0.5rem 0;
   margin-left: 3.6875rem;
+  margin-top: 0.25rem;
+  background-image: url(../images/logo-color.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+  padding: 0;
+  width: 14%;
+  height: 50px;
+}
+
+.navbar-left {
+  background-image: url(../images/logo-color.png);
+  background-size: 100% 100%;
+  background-position: center;
+  width: 177px;
+  height: 50px;
+  margin: 0.25rem auto auto 3.6875rem;
+}
+
+.navbar-right {
+  padding-right: 3.4375rem;
 }
 
 nav img {
@@ -22,6 +42,7 @@ nav img {
   font-size: 1rem;
   font-weight: bold;
   color: #fff;
+  margin: 0.25rem auto;
 }
 
 /*JUMBOTRON STYLES*/
@@ -31,7 +52,7 @@ nav img {
   background-size: cover;
   text-align: center;
   color: #fff;
-  margin: 0 auto;
+  margin: 3.875rem auto auto auto;
 }
 
 .jumbotron .container-fluid {
