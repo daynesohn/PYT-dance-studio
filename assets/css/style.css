@@ -8,6 +8,10 @@ nav {
   height: 3.875rem;
 }
 
+.navbar-inverse {
+  background-color: #000;
+}
+
 .navbar-left {
   background-image: url(../images/logo-color.png);
   background-size: 100% 100%;
@@ -28,8 +32,13 @@ nav {
   margin: 0.25rem auto;
 }
 
+.navbar-inverse .navbar-nav .active a {
+  background-color: #000;
+  color: #f5a623;
+}
+
 /*JUMBOTRON STYLES*/
-.jumbotron {
+.home {
   background-image: url(../images/dancers-photo.png);
   background-position: center;
   background-size: cover;
@@ -96,6 +105,10 @@ nav {
   background-image: url(../images/jump-photo.png);
 }
 
+.map {
+  background-image: url(../images/map.jpg);
+}
+
 .example {
   height: 80%;
   display: flex;
@@ -123,6 +136,105 @@ nav {
 
 .light-purple {
   background-color: rgba(173, 74, 226, 0.9);
+}
+
+/*ABOUT PAGE HERO*/
+.about-hero {
+  background-color: #fff;
+  border-bottom: 10px solid #794ae2;
+  display: flex;
+  margin: 3.875rem auto 0 auto;
+}
+
+.about-hero img {
+  max-width: 100%;
+  height: auto;
+}
+
+.about-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  text-align: center;
+  max-height: 590px;
+}
+
+.about-text h1 {
+  font-size: 3.125rem;
+  font-weight: bold;
+  color: #794ae2;
+}
+
+.about-text p {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  padding-top: 4rem;
+  color: #666666;
+}
+
+.location h1 {
+  margin-bottom: 2rem;
+}
+
+.location p {
+  padding: 0;
+  line-height: 1;
+}
+
+/*DANCE STYLES*/
+.dance {
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+}
+
+.alternate {
+  background-color: #fff;
+}
+
+.dance-container {
+  display: flex;
+  justify-content: space-around;
+  max-width: 62%;
+  margin: 4rem 19%;
+}
+
+.dance-container img {
+  height: 9.375rem;
+  width: auto;
+  margin-top: 4.5rem;
+}
+
+.dance-text {
+  padding-left: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.alternate .dance-text {
+  padding-right: 5rem;
+}
+
+.dance-text h2 {
+  font-size: 2.25rem;
+  font-weight: bold;
+  color: #794ae2;
+}
+
+.dance-text p {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  color: #666666;
+}
+
+.dance-container .chrysler {
+  height: 13rem;
+  margin-top: 2.5rem;
 }
 
 /*FOOTER STYLES*/
