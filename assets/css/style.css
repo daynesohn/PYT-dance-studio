@@ -146,9 +146,12 @@ nav {
   margin: 3.875rem auto 0 auto;
 }
 
-.about-hero img {
-  max-width: 100%;
-  height: auto;
+.about-image {
+  display: block;
+  background-image: url(../images/workout-photo.png);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
 }
 
 .about-text {
@@ -159,6 +162,7 @@ nav {
   margin: auto;
   text-align: center;
   max-height: 590px;
+  padding: 7rem;
 }
 
 .about-text h1 {
@@ -293,6 +297,34 @@ footer {
     width: 31.25rem;
   }
 
+  /*TABLET HERO*/
+  .about-hero {
+    flex-direction: column;
+  }
+
+  .about-image {
+    background-position: inherit;
+    max-width: 100%;
+    height: 21.5rem;
+  }
+
+  .about-text {
+    background-color: #fff;
+    padding: 1rem;
+  }
+
+  .about-text h1 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #794ae2;
+  }
+
+  .about-text p {
+    font-size: 1rem;
+    line-height: 1.6;
+    padding-top: 2rem;
+  }
+
   /*HERO STYLES*/
   .example {
     height: 12.1875rem;
@@ -308,6 +340,47 @@ footer {
     font-size: 1rem;
     line-height: 1.5;
     padding-top: 0.625rem;
+  }
+
+  .dance-container {
+    flex-direction: column;
+    margin: 0 0 1.875rem 0;
+  }
+
+  .alternate .dance-container {
+    flex-direction: column-reverse;
+  }
+
+  .dance-container img,
+  .chrysler {
+    height: 6.25rem !important;
+    width: auto;
+    margin-top: 1.875rem;
+    align-self: center;
+  }
+
+  .dance-text,
+  .alternate .dance-text {
+    padding: 0;
+  }
+
+  .dance-text h2 {
+    font-size: 1.75rem;
+  }
+
+  .dance-text p {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
+  .example {
+    margin: 0;
+  }
+
+  .location  h1,
+  .location p {
+    margin: 0;
+    padding: 0 0.5rem 0 0;
   }
 
   /*FOOTER STYLES*/
@@ -366,6 +439,10 @@ footer {
 
   /*JUMBOTRON*/
   .jumbotron {
+    margin: 2.5rem auto auto auto;
+  }
+
+  .about-hero {
     margin: 2.5rem auto auto auto;
   }
 
