@@ -268,33 +268,46 @@ nav {
 }
 
 .classes {
-  margin-top: 1.5625rem;
+  margin-top: 5.3125rem;
   margin-right: 1.125rem;
   margin-left: 1.125rem;
   align-items: center;
 }
 
-.class-row {
+.class-top {
+  margin-top: 0 !important;
+}
+
+.class {
   margin-top: 3.75rem;
 }
 
-.class h2 {
+.class-bottom {
+  margin-bottom: 2.4rem;
+}
+
+.class h2,
+.class-special h2 {
   font-size: 1.875rem;
   font-weight: bold;
   color: rgba(174, 75, 227, 0.9);
 }
 
 .class h4,
-.class p {
+.class p,
+.class-special h4,
+.class-special p {
   padding-top: 1.125rem;
 }
 
-.class h4 {
+.class h4,
+.class-special h4 {
   font-size: 1.125rem;
   font-weight: bold;
 }
 
-.class p {
+.class p,
+.class-special p {
   font-size: 1rem;
   line-height: 1.5;
   color: #000;
@@ -392,6 +405,10 @@ footer {
     font-size: 1rem;
     line-height: 1.6;
     padding-top: 2rem;
+  }
+
+  .classes .class-special {
+    margin-top: 0 !important;
   }
 
   /*HERO STYLES*/
@@ -547,5 +564,29 @@ footer {
 
   .example p {
     font-size: 1rem;
+  }
+
+  .classes {
+    margin-top: 3rem;
+  }
+
+  .classes .class-special {
+    margin-top: 0 !important;
+  }
+
+  .class {
+    margin-top: 0;
+  }
+
+  .class-top {
+    margin-top: 0;
+  }
+
+  .class-bottom {
+    margin-bottom: 0;
+  }
+
+  .class-bottom-mobile {
+    margin-bottom: 3rem;
   }
 }
