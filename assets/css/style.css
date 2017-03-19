@@ -652,6 +652,10 @@ footer {
     margin-top: 3.875rem;
   }
 
+  .mobile {
+    display: block;
+  }
+
   .jumbo-faculty {
     height: 24rem;
     display: flex;
