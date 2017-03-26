@@ -316,6 +316,11 @@ nav {
   margin-top: 3.75rem;
 }
 
+.class-b-special {
+  float: right !important;
+  margin-top: 3.75rem !important;
+}
+
 .class h2,
 .class-special h2 {
   font-size: 1.875rem;
